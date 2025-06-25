@@ -1,14 +1,17 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-function Hero() {
+const Hero: React.FC = () => {
   const { t } = useTranslation();
+  
+  const backgroundStyle: React.CSSProperties = {
+    backgroundImage: `url('https://images.unsplash.com/photo-1673087378997-594f6d15de39?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`
+  };
+
   return (
     <section 
       className="relative flex flex-col items-center justify-center h-screen bg-cover bg-center bg-no-repeat"
-      style={{
-        backgroundImage: `url('https://images.unsplash.com/photo-1673087378997-594f6d15de39?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`
-      }}
+      style={backgroundStyle}
     >
       {/* Dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -20,6 +23,6 @@ function Hero() {
       </div>
     </section>
   );
-}
+};
 
 export default Hero;

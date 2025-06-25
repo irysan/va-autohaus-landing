@@ -1,8 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-function WhatWeDo() {
+const WhatWeDo: React.FC = () => {
   const { t } = useTranslation();
+  
   return (
     <section className="py-16 px-4 bg-gray-800 text-white">
       <div className="max-w-6xl mx-auto">
@@ -53,6 +54,6 @@ function WhatWeDo() {
       </div>
     </section>
   );
-}
+};
 
 export default WhatWeDo;

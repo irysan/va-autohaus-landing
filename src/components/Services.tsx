@@ -1,10 +1,17 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-function Services() {
+interface Service {
+  key: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+const Services: React.FC = () => {
   const { t } = useTranslation();
 
-  const services = [
+  const services: Service[] = [
     {
       key: 'buySell',
       icon: '🚗',
@@ -46,7 +53,7 @@ function Services() {
         </p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => (
+          {services.map((service: Service) => (
             <div 
               key={service.key}
               className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 hover:bg-gray-750"
@@ -60,6 +67,6 @@ function Services() {
       </div>
     </section>
   );
-}
+};
 
 export default Services;

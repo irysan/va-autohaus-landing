@@ -1,8 +1,9 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-function WhoWeAre() {
+const WhoWeAre: React.FC = () => {
   const { t } = useTranslation();
+  
   return (
     <section className="bg-gray-800 text-white py-12 px-4">
       <h2 className="text-3xl font-semibold text-center mb-8">{t('who.title')}</h2>
@@ -20,6 +21,6 @@ function WhoWeAre() {
       </div>
     </section>
   );
-}
+};
 
 export default WhoWeAre;

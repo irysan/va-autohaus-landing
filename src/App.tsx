@@ -10,7 +10,7 @@ import Location from './components/Location';
 import Footer from './components/Footer';
 import './i18n';  // Initialize i18n
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="font-sans bg-gray-900 text-white">
       <Header />
@@ -36,6 +36,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

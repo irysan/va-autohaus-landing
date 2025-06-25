@@ -1,14 +1,18 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-function Header() {
+const Header: React.FC = () => {
   const { t, i18n } = useTranslation();
   
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string): void => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const changeLanguage = (language: string): void => {
+    i18n.changeLanguage(language);
   };
 
   return (
@@ -30,30 +34,35 @@ function Header() {
             <button 
               onClick={() => scrollToSection('hero')}
               className="hover:text-yellow-400 transition-colors"
+              type="button"
             >
               {t('nav.home')}
             </button>
             <button 
               onClick={() => scrollToSection('services')}
               className="hover:text-yellow-400 transition-colors"
+              type="button"
             >
               {t('nav.services')}
             </button>
             <button 
               onClick={() => scrollToSection('who-we-are')}
               className="hover:text-yellow-400 transition-colors"
+              type="button"
             >
               {t('nav.about')}
             </button>
             <button 
               onClick={() => scrollToSection('gallery')}
               className="hover:text-yellow-400 transition-colors"
+              type="button"
             >
               {t('nav.gallery')}
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
               className="hover:text-yellow-400 transition-colors"
+              type="button"
             >
               {t('nav.contact')}
             </button>
@@ -63,13 +72,15 @@ function Header() {
           <div className="flex items-center space-x-2">
             <button
               className={`px-3 py-1 rounded transition-colors ${i18n.language === 'en' ? 'bg-yellow-400 text-gray-900' : 'hover:bg-yellow-400 hover:text-gray-900'}`}
-              onClick={() => i18n.changeLanguage('en')}
+              onClick={() => changeLanguage('en')}
+              type="button"
             >
               EN
             </button>
             <button
               className={`px-3 py-1 rounded transition-colors ${i18n.language === 'es' ? 'bg-yellow-400 text-gray-900' : 'hover:bg-yellow-400 hover:text-gray-900'}`}
-              onClick={() => i18n.changeLanguage('es')}
+              onClick={() => changeLanguage('es')}
+              type="button"
             >
               ES
             </button>
@@ -78,6 +89,6 @@ function Header() {
       </div>
     </header>
   );
-}
+};
 
 export default Header;
