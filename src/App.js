@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Services from './components/Services';
 import WhoWeAre from './components/WhoWeAre';
 import WhatWeDo from './components/WhatWeDo';
 import Gallery from './components/Gallery';
@@ -13,12 +14,23 @@ function App() {
   return (
     <div className="font-sans bg-gray-900 text-white">
       <Header />
-      <main>
-        <Hero />
-        <WhoWeAre />
+      <main className="pt-20"> {/* Add padding-top to account for fixed header */}
+        <div id="hero">
+          <Hero />
+        </div>
+        <div id="services">
+          <Services />
+        </div>
+        <div id="who-we-are">
+          <WhoWeAre />
+        </div>
         <WhatWeDo />
-        <Gallery />
-        <ContactForm />
+        <div id="gallery">
+          <Gallery />
+        </div>
+        <div id="contact">
+          <ContactForm />
+        </div>
         <Location />
       </main>
       <Footer />

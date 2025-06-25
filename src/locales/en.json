@@ -1,7 +1,38 @@
 {
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
   "hero": {
     "title": "Welcome to V&A Autohaus",
     "tagline": "Luxury motorcars for discerning drivers"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive luxury automotive solutions tailored to your needs",
+    "buySell": {
+      "title": "Buy & Sell",
+      "description": "Expert evaluation and trading of premium luxury vehicles. We offer competitive prices for your current vehicle and help you find your next dream car from our curated collection of BMW, Mercedes, and other prestigious brands."
+    },
+    "salesManagement": {
+      "title": "Sales Management",
+      "description": "Complete sales process management from initial consultation to final delivery. Our experienced team handles all paperwork, documentation, and ensures a seamless transaction experience for both buyers and sellers."
+    },
+    "importExport": {
+      "title": "Import/Export",
+      "description": "International vehicle sourcing and shipping services. We specialise in importing rare and exclusive models from Europe and worldwide, handling all customs, documentation, and logistics with complete transparency."
+    },
+    "vehicleStorage": {
+      "title": "Vehicle Custody",
+      "description": "Secure, climate-controlled storage facilities for your valuable vehicles. Our premium storage service includes regular maintenance checks, battery conditioning, and comprehensive insurance coverage for complete peace of mind."
+    },
+    "financing": {
+      "title": "Financing",
+      "description": "Flexible financing solutions tailored to luxury vehicle purchases. We work with premium financial institutions to offer competitive rates, leasing options, and bespoke payment plans that suit your financial requirements."
+    }
   },
   "who": {
     "title": "Who We Are",
@@ -11,8 +42,20 @@
     "victorBio": "Víctor's extensive background in automotive sales and customer service has made him a trusted adviser for luxury motorcar enthusiasts. His attention to detail and personalised approach guarantee exceptional service."
   },
   "what": {
-    "title": "What We Do",
-    "description": "We provide top-quality luxury motorcars and exceptional service to discerning clients. Our curated selection of BMW and Mercedes vehicles represents the pinnacle of automotive excellence, backed by comprehensive warranties and personalised customer care."
+    "title": "Our Quality Promise",
+    "description": "We provide top-quality luxury motorcars and exceptional service to discerning clients. Our curated selection of BMW and Mercedes vehicles represents the pinnacle of automotive excellence.",
+    "policy": {
+      "title": "Our Commitment to Excellence",
+      "description": "Every vehicle in our collection is totally revised, certified, verified and comes with a premium warranty. This is our unwavering commitment to excellence and the foundation of how we conduct business. We believe that luxury extends beyond the vehicle itself—it encompasses the entire ownership experience, from the moment you step into our showroom to years of worry-free driving.",
+      "revised": "Totally Revised",
+      "revisedDesc": "Comprehensive mechanical and aesthetic inspection by certified technicians",
+      "certified": "Certified",
+      "certifiedDesc": "Official certification meeting the highest industry standards",
+      "verified": "Verified",
+      "verifiedDesc": "Complete history verification and authenticity confirmation",
+      "warranty": "Premium Warranty",
+      "warrantyDesc": "Extensive coverage for complete peace of mind"
+    }
   },
   "gallery": {
     "title": "Our Premium Collection"
@@ -27,7 +70,7 @@
   },
   "location": {
     "title": "Our Location",
-    "address": "1234 Elm Street, Metropolis, United Kingdom"
+    "address": "Calle Cobre 7, 28850 Torrejón de Ardoz, Madrid, Spain"
   },
   "footer": {
     "legal": "© 2025 V&A Autohaus. All rights reserved."
