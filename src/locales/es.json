@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "title": "Bienvenidos a V&A Autohaus",
+    "tagline": "Coches de lujo para conductores exigentes"
+  },
+  "who": {
+    "title": "Quiénes Somos",
+    "alfonsoName": "Alfonso Sánchez",
+    "alfonsoBio": "Con más de 15 años de experiencia en la industria del automóvil de lujo, Alfonso aporta una experiencia y pasión incomparables por los vehículos premium. Su compromiso con la excelencia garantiza que cada cliente encuentre su combinación perfecta.",
+    "victorName": "Víctor López",
+    "victorBio": "La amplia experiencia de Víctor en ventas de automóviles y atención al cliente le ha convertido en un asesor de confianza para los entusiastas de los coches de lujo. Su atención al detalle y enfoque personalizado garantizan un servicio excepcional."
+  },
+  "what": {
+    "title": "Qué Hacemos",
+    "description": "Proporcionamos vehículos de lujo de alta calidad y un servicio excepcional a clientes exigentes. Nuestra selección curada de vehículos BMW y Mercedes representa la cúspide de la excelencia automovilística, respaldada por garantías integrales y atención personalizada al cliente."
+  },
+  "gallery": {
+    "title": "Nuestra Colección Premium"
+  },
+  "contact": {
+    "title": "Póngase en Contacto",
+    "nameLabel": "Nombre",
+    "emailLabel": "Correo Electrónico",
+    "phoneLabel": "Teléfono",
+    "messageLabel": "Mensaje",
+    "submit": "Enviar"
+  },
+  "location": {
+    "title": "Nuestra Ubicación",
+    "address": "1234 Elm Street, Metropolis, España"
+  },
+  "footer": {
+    "legal": "© 2025 V&A Autohaus. Todos los derechos reservados."
+  }
+}

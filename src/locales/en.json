@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "title": "Welcome to V&A Autohaus",
+    "tagline": "Luxury motorcars for discerning drivers"
+  },
+  "who": {
+    "title": "Who We Are",
+    "alfonsoName": "Alfonso Sánchez",
+    "alfonsoBio": "With over 15 years of experience in the luxury automotive industry, Alfonso brings unparalleled expertise and passion for premium motorcars. His commitment to excellence ensures every client finds their perfect match.",
+    "victorName": "Víctor López",
+    "victorBio": "Víctor's extensive background in automotive sales and customer service has made him a trusted adviser for luxury motorcar enthusiasts. His attention to detail and personalised approach guarantee exceptional service."
+  },
+  "what": {
+    "title": "What We Do",
+    "description": "We provide top-quality luxury motorcars and exceptional service to discerning clients. Our curated selection of BMW and Mercedes vehicles represents the pinnacle of automotive excellence, backed by comprehensive warranties and personalised customer care."
+  },
+  "gallery": {
+    "title": "Our Premium Collection"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "phoneLabel": "Telephone",
+    "messageLabel": "Message",
+    "submit": "Submit"
+  },
+  "location": {
+    "title": "Our Location",
+    "address": "1234 Elm Street, Metropolis, United Kingdom"
+  },
+  "footer": {
+    "legal": "© 2025 V&A Autohaus. All rights reserved."
+  }
+}
