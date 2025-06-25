@@ -8,27 +8,29 @@ import Gallery from './components/Gallery';
 import ContactForm from './components/ContactForm';
 import Location from './components/Location';
 import Footer from './components/Footer';
-import './i18n';  // Initialize i18n
+import './i18n'; // Initialize i18n
 
 const App: React.FC = () => {
   return (
-    <div className="font-sans bg-gray-900 text-white">
+    <div className='font-sans bg-gray-900 text-white'>
       <Header />
-      <main className="pt-20"> {/* Add padding-top to account for fixed header */}
-        <div id="hero">
+      <main className='pt-20'>
+        {' '}
+        {/* Add padding-top to account for fixed header */}
+        <div id='hero'>
           <Hero />
         </div>
-        <div id="services">
+        <div id='services'>
           <Services />
         </div>
-        <div id="who-we-are">
+        <div id='who-we-are'>
           <WhoWeAre />
         </div>
         <WhatWeDo />
-        <div id="gallery">
+        <div id='gallery'>
           <Gallery />
         </div>
-        <div id="contact">
+        <div id='contact'>
           <ContactForm />
         </div>
         <Location />
