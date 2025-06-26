@@ -206,11 +206,6 @@ Desktop.ini
 # Linux
 *~
 
-# Package managers
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
 # Backup files
 *.bak
 *.backup
