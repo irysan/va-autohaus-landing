@@ -7,7 +7,7 @@ const Location: React.FC = () => {
   const iframeStyle: React.CSSProperties = { border: 0 };
 
   return (
-    <section className='py-12 px-4 bg-gray-800 text-white'>
+    <section id='location' className='py-12 px-4 bg-gray-800 text-white'>
       <h2 className='text-3xl font-semibold text-center mb-6'>
         {t('location.title')}
       </h2>
@@ -23,24 +23,68 @@ const Location: React.FC = () => {
           loading='lazy'
           referrerPolicy='no-referrer-when-downgrade'
         ></iframe>
-        <div className='mt-6 text-center'>
-          <p className='text-gray-300 text-lg font-semibold'>
+
+        {/* Contact Information */}
+        <div className='mt-8 text-center'>
+          <p className='text-gray-300 text-lg font-semibold mb-6'>
             {t('location.address')}
           </p>
-          <div className='mt-4 grid md:grid-cols-2 gap-4 text-gray-400'>
-            <div>
-              <p className='font-semibold text-yellow-400 mb-2'>
-                Horario de Atención
-              </p>
-              <p>Lunes - Viernes: 9:00 - 19:00</p>
-              <p>Sábados: 10:00 - 14:00</p>
-              <p>Domingos: Cerrado</p>
+
+          {/* Contact Cards */}
+          <div className='grid md:grid-cols-3 gap-6 text-gray-300'>
+            {/* Business Hours */}
+            <div className='bg-gray-900 p-6 rounded-lg'>
+              <h3 className='font-semibold text-yellow-400 mb-4 text-lg'>
+                {t('location.hours')}
+              </h3>
+              <div className='space-y-2'>
+                <p>Lunes - Viernes: 9:00 - 19:00</p>
+                <p>Sábados: 10:00 - 14:00</p>
+                <p>Domingos: Cerrado</p>
+              </div>
             </div>
-            <div>
-              <p className='font-semibold text-yellow-400 mb-2'>Contacto</p>
-              <p>Teléfono: +34 91 XXX XX XX</p>
-              <p>Email: info@va-autohaus.es</p>
-              <p>Cita previa recomendada</p>
+
+            {/* Contact Information */}
+            <div className='bg-gray-900 p-6 rounded-lg'>
+              <h3 className='font-semibold text-yellow-400 mb-4 text-lg'>
+                {t('location.contact')}
+              </h3>
+              <div className='space-y-3'>
+                <div>
+                  <p className='font-medium'>Alfonso Sánchez</p>
+                  <a
+                    href='tel:+34600000000'
+                    className='text-yellow-400 hover:text-yellow-300 transition-colors'
+                  >
+                    +34 600 000 000
+                  </a>
+                </div>
+                <div>
+                  <p className='font-medium'>Víctor López</p>
+                  <a
+                    href='tel:+34600000001'
+                    className='text-yellow-400 hover:text-yellow-300 transition-colors'
+                  >
+                    +34 600 000 001
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Additional Info */}
+            <div className='bg-gray-900 p-6 rounded-lg'>
+              <h3 className='font-semibold text-yellow-400 mb-4 text-lg'>
+                {t('location.info')}
+              </h3>
+              <div className='space-y-2'>
+                <p>Email: info@va-autohaus.es</p>
+                <p className='text-sm text-gray-400'>
+                  {t('location.appointment')}
+                </p>
+                <p className='text-sm text-gray-400'>
+                  {t('location.whatsapp')}
+                </p>
+              </div>
             </div>
           </div>
         </div>

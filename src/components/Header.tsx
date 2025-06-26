@@ -94,11 +94,11 @@ const Header: React.FC = () => {
               {t('nav.gallery')}
             </button>
             <button
-              onClick={() => scrollToSection('contact')}
+              onClick={() => scrollToSection('location')}
               className='hover:text-yellow-400 transition-colors'
               type='button'
             >
-              {t('nav.contact')}
+              {t('location.contact')}
             </button>
           </nav>
 
@@ -109,7 +109,9 @@ const Header: React.FC = () => {
               className='px-3 py-1 text-sm rounded bg-yellow-400 text-gray-900 hover:bg-yellow-500 transition-colors font-medium'
               onClick={toggleLanguage}
               type='button'
-              title={`Switch to ${i18n.language === 'en' ? 'Spanish' : 'English'}`}
+              title={`Switch to ${
+                i18n.language === 'en' ? 'Spanish' : 'English'
+              }`}
             >
               {i18n.language.toUpperCase()}
             </button>
@@ -122,13 +124,19 @@ const Header: React.FC = () => {
               aria-label='Toggle menu'
             >
               <span
-                className={`block w-6 h-0.5 bg-white transition-transform duration-300 ${isMenuOpen ? 'rotate-45 translate-y-2' : ''}`}
+                className={`block w-6 h-0.5 bg-white transition-transform duration-300 ${
+                  isMenuOpen ? 'rotate-45 translate-y-2' : ''
+                }`}
               ></span>
               <span
-                className={`block w-6 h-0.5 bg-white transition-opacity duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}
+                className={`block w-6 h-0.5 bg-white transition-opacity duration-300 ${
+                  isMenuOpen ? 'opacity-0' : ''
+                }`}
               ></span>
               <span
-                className={`block w-6 h-0.5 bg-white transition-transform duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}
+                className={`block w-6 h-0.5 bg-white transition-transform duration-300 ${
+                  isMenuOpen ? '-rotate-45 -translate-y-2' : ''
+                }`}
               ></span>
             </button>
           </div>
@@ -136,7 +144,9 @@ const Header: React.FC = () => {
 
         {/* Mobile/Tablet Navigation Menu (dropdown) - Scrollable */}
         <div
-          className={`lg:hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'} overflow-hidden`}
+          className={`lg:hidden transition-all duration-300 ease-in-out ${
+            isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
+          } overflow-hidden`}
         >
           <nav className='py-4 border-t border-gray-700 max-h-80 overflow-y-auto'>
             <div className='flex flex-col space-y-2'>
@@ -169,11 +179,11 @@ const Header: React.FC = () => {
                 {t('nav.gallery')}
               </button>
               <button
-                onClick={() => scrollToSection('contact')}
+                onClick={() => scrollToSection('location')}
                 className='text-left hover:text-yellow-400 transition-colors py-3 px-4 rounded hover:bg-gray-800 w-full'
                 type='button'
               >
-                {t('nav.contact')}
+                {t('location.contact')}
               </button>
             </div>
           </nav>

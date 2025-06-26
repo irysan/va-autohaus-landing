@@ -3,8 +3,7 @@
     "home": "Inicio",
     "services": "Servicios",
     "about": "Nosotros",
-    "gallery": "Galería",
-    "contact": "Contacto"
+    "gallery": "Galería"
   },
   "hero": {
     "title": "Bienvenidos a V&A Autohaus",
@@ -60,17 +59,14 @@
   "gallery": {
     "title": "Algunos de Nuestros Coches"
   },
-  "contact": {
-    "title": "Póngase en Contacto",
-    "nameLabel": "Nombre",
-    "emailLabel": "Correo Electrónico",
-    "phoneLabel": "Teléfono",
-    "messageLabel": "Mensaje",
-    "submit": "Enviar"
-  },
   "location": {
-    "title": "Nuestra Ubicación",
-    "address": "Calle Cobre 7, 28850 Torrejón de Ardoz, Madrid, España"
+    "title": "Visítanos y Ponte en Contacto",
+    "address": "Calle Cobre 7, 28850 Torrejón de Ardoz, Madrid, España",
+    "hours": "Horario de Atención",
+    "contact": "Contáctanos",
+    "info": "Información Adicional",
+    "appointment": "Cita previa recomendada",
+    "whatsapp": "WhatsApp disponible"
   },
   "footer": {
     "legal": "© 2025 V&A Autohaus. Todos los derechos reservados."
