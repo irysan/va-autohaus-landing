@@ -20,6 +20,16 @@ i18n
       order: ['localStorage', 'navigator', 'htmlTag'],
       lookupLocalStorage: 'i18nextLng',
       caches: ['localStorage'],
+      // Convert any English variant to 'en'
+      convertDetectedLanguage: (lng: string) => {
+        if (lng.startsWith('en')) {
+          return 'en';
+        }
+        if (lng.startsWith('es')) {
+          return 'es';
+        }
+        return lng;
+      },
     },
     interpolation: {
       escapeValue: false,

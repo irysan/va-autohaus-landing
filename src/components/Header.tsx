@@ -15,7 +15,8 @@ const Header: React.FC = () => {
   };
 
   const toggleLanguage = (): void => {
-    const newLanguage = i18n.language === 'en' ? 'es' : 'en';
+    const isEnglish = i18n.language.startsWith('en');
+    const newLanguage = isEnglish ? 'es' : 'en';
     i18n.changeLanguage(newLanguage);
   };
 
@@ -110,10 +111,12 @@ const Header: React.FC = () => {
               onClick={toggleLanguage}
               type='button'
               title={`Switch to ${
-                i18n.language === 'en' ? 'Spanish' : 'English'
+                i18n.language.startsWith('en') ? 'Spanish' : 'English'
               }`}
             >
-              {i18n.language.toUpperCase()}
+              {i18n.language.startsWith('en')
+                ? 'EN'
+                : i18n.language.toUpperCase()}
             </button>
 
             {/* Hamburger menu button (visible on mobile/tablet) */}
