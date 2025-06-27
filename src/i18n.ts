@@ -13,6 +13,14 @@ i18n
       es: { translation: es },
     },
     fallbackLng: 'en',
+    supportedLngs: ['en', 'es'],
+    nonExplicitSupportedLngs: true,
+    load: 'languageOnly', // Load only language code (en) not region (en-GB)
+    detection: {
+      order: ['localStorage', 'navigator', 'htmlTag'],
+      lookupLocalStorage: 'i18nextLng',
+      caches: ['localStorage'],
+    },
     interpolation: {
       escapeValue: false,
     },
