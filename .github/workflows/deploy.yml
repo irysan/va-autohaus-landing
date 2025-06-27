@@ -1,10 +1,16 @@
 name: Deploy to GitHub Pages
 
+# Disabled automatic deployment to avoid conflicts with manual deployment
+# Uncomment the 'on' section below to re-enable automatic deployment
+
+# on:
+#   push:
+#     branches: [ main ]
+#   pull_request:
+#     branches: [ main ]
+
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch: # Allow manual triggering only
 
 jobs:
   build-and-deploy:
@@ -26,7 +32,6 @@ jobs:
       run: npm run build
       
     - name: Deploy to GitHub Pages
-      if: github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
