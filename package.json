@@ -29,7 +29,6 @@
     "eslint-plugin-prettier": "^5.5.1",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
-    "gh-pages": "^6.3.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "postcss": "^8.4.32",
@@ -48,9 +47,7 @@
     "format": "prettier --write src/**/*.{js,jsx,ts,tsx,json,css,md}",
     "format:check": "prettier --check src/**/*.{js,jsx,ts,tsx,json,css,md}",
     "type-check": "tsc --noEmit",
-    "validate": "npm run type-check && npm run lint && npm run format:check",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "validate": "npm run type-check && npm run lint && npm run format:check"
   },
   "eslintConfig": {
     "extends": [
