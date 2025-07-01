@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/va-autohaus-landing/static/css/main.d0428ce9.css",
-    "main.js": "/va-autohaus-landing/static/js/main.9ae70957.js",
-    "index.html": "/va-autohaus-landing/index.html",
-    "main.d0428ce9.css.map": "/va-autohaus-landing/static/css/main.d0428ce9.css.map",
-    "main.9ae70957.js.map": "/va-autohaus-landing/static/js/main.9ae70957.js.map"
+    "main.css": "/static/css/main.d0428ce9.css",
+    "main.js": "/static/js/main.9ae70957.js",
+    "index.html": "/index.html",
+    "main.d0428ce9.css.map": "/static/css/main.d0428ce9.css.map",
+    "main.9ae70957.js.map": "/static/js/main.9ae70957.js.map"
   },
   "entrypoints": [
     "static/css/main.d0428ce9.css",
