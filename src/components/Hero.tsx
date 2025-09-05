@@ -8,9 +8,9 @@ const Hero: React.FC = () => {
   const carImages: string[] = [
     'https://images.unsplash.com/photo-1712755557911-b3e2acd2f5b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80', // White BMW X5M
     'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80', // Black BMW M3
-    'https://images.unsplash.com/photo-1673087378997-594f6d15de39?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80', // Green GT3 RS
+    'https://images.unsplash.com/photo-1662944282088-c18952b39550?q=80&w=1740&auto=format&fit=crop&w=1920&q=80', // Lexus
     'https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80', // Red sports car
-    'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80', // Blue luxury car
+    'https://images.unsplash.com/photo-1610099610040-ab19f3a5ec35?q=80&w=928&auto=format&fit=crop&w=1920&q=80', // Mercedes
   ];
 
   // Featured image for mobile (Green GT3 RS)

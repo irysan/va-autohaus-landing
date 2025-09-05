@@ -26,11 +26,15 @@
     },
     "vehicleStorage": {
       "title": "Vehicle Custody",
-      "description": "We safeguard your vehicle securely and professionally. Our premium storage service includes regular maintenance checks, battery conditioning, and comprehensive insurance coverage for complete peace of mind."
+      "description": "We custody your vehicle safely and professionally. Our premium storage service includes regular maintenance checks, battery conditioning, and comprehensive insurance coverage for complete peace of mind."
     },
     "financing": {
       "title": "Financing",
-      "description": "Flexible financing solutions tailored to all kind of vehicle purchases. We work with premium financial institutions to offer competitive rates, leasing options, and bespoke payment plans that suit your financial requirements."
+      "description": "Flexible financing solutions tailored to the purchase of all types of vehicles. We work with premium financial institutions to offer competitive rates, leasing options, and bespoke payment plans that suit your financial requirements."
+    },
+    "renting": {
+      "title": "Renting",
+      "description": "We offer personalized advice on the best options available in the Renting market, whether for personal or professional use. Compare and choose the option that best suits your needs."
     }
   },
   "who": {

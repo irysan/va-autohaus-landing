@@ -31,6 +31,10 @@
     "financing": {
       "title": "Financiación",
       "description": "Soluciones de financiación flexibles adaptadas a la compra de todo tipo de vehículos. Trabajamos con instituciones financieras premium para ofrecer tipos competitivos, opciones de leasing y planes de pago personalizados que se adapten a sus requisitos financieros."
+    },
+    "renting": {
+      "title": "Renting",
+      "description": "Te ofrecemos un asesoramiento personalizado de las mejores opciones disponibles en el mercado del Renting tanto si es a nivel particular como profesional. Compara y elige la opción que más se adapte a tus necesidades."
     }
   },
   "who": {

@@ -42,6 +42,12 @@ const Services: React.FC = () => {
       title: t('services.financing.title'),
       description: t('services.financing.description'),
     },
+    {
+      key: 'renting',
+      icon: '📄',
+      title: t('services.renting.title'),
+      description: t('services.renting.description'),
+    },
   ];
 
   return (
