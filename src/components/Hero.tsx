@@ -10,12 +10,11 @@ const Hero: React.FC = () => {
     'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80', // Black BMW M3
     'https://images.unsplash.com/photo-1662944282088-c18952b39550?q=80&w=1740&auto=format&fit=crop&w=1920&q=80', // Lexus
     'https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80', // Red sports car
-    'https://images.unsplash.com/photo-1610099610040-ab19f3a5ec35?q=80&w=928&auto=format&fit=crop&w=1920&q=80', // Mercedes
+    '/assets/Mercedes%20GLC.jpeg', // Mercedes
   ];
 
-  // Featured image for mobile (Green GT3 RS)
-  const mobileImage =
-    'https://images.unsplash.com/photo-1673087378997-594f6d15de39?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80';
+  // Featured image for mobile (Mercedes GLC)
+  const mobileImage = '/assets/Mercedes%20GLC.jpeg';
 
   return (
     <section className='relative flex flex-col items-center justify-center h-screen overflow-hidden'>
