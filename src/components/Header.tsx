@@ -81,6 +81,13 @@ const Header: React.FC = () => {
               {t('nav.services')}
             </button>
             <button
+              onClick={() => scrollToSection('garage')}
+              className='hover:text-yellow-400 transition-colors'
+              type='button'
+            >
+              {t('nav.garage')}
+            </button>
+            <button
               onClick={() => scrollToSection('who-we-are')}
               className='hover:text-yellow-400 transition-colors'
               type='button'
@@ -166,6 +173,13 @@ const Header: React.FC = () => {
                 type='button'
               >
                 {t('nav.services')}
+              </button>
+              <button
+                onClick={() => scrollToSection('garage')}
+                className='text-left hover:text-yellow-400 transition-colors py-3 px-4 rounded hover:bg-gray-800 w-full'
+                type='button'
+              >
+                {t('nav.garage')}
               </button>
               <button
                 onClick={() => scrollToSection('who-we-are')}

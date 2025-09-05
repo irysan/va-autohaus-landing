@@ -2,6 +2,7 @@
   "nav": {
     "home": "Inicio",
     "services": "Servicios",
+    "garage": "V&A Garage",
     "about": "Nosotros",
     "gallery": "Galería"
   },
@@ -35,6 +36,29 @@
     "renting": {
       "title": "Renting",
       "description": "Te ofrecemos un asesoramiento personalizado de las mejores opciones disponibles en el mercado del Renting tanto si es a nivel particular como profesional. Compara y elige la opción que más se adapte a tus necesidades."
+    }
+  },
+  "garage": {
+    "title": "V&A Garage",
+    "subtitle": "Vehículos de alta gama y servicios especializados",
+    "description": "¿Te apasionan los super deportivos y los vehículos de alta gama? ¿Necesitas algún tipo de servicio extra para complementar tu compra? Detallados, aftermarket, importaciones a la carta... Consulta todas las posibilidades que tienes con nuestro equipo y elige la opción que más se adapte a ti.",
+    "services": {
+      "supercars": {
+        "title": "Supercars",
+        "description": "Vehículos superdeportivos y exóticos de alto rendimiento"
+      },
+      "detailing": {
+        "title": "Detallado",
+        "description": "Servicios profesionales de detallado y cuidado del vehículo"
+      },
+      "aftermarket": {
+        "title": "Aftermarket",
+        "description": "Modificaciones personalizadas y mejoras de rendimiento"
+      },
+      "customImports": {
+        "title": "Importaciones a la Carta",
+        "description": "Importaciones de vehículos personalizadas según tus especificaciones"
+      }
     }
   },
   "who": {

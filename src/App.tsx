@@ -2,12 +2,13 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import Garage from './components/Garage';
 import WhoWeAre from './components/WhoWeAre';
 import WhatWeDo from './components/WhatWeDo';
 import Gallery from './components/Gallery';
 import Location from './components/Location';
 import Footer from './components/Footer';
-import './i18n'; // Initialize i18n
+import './i18n';
 
 const App: React.FC = () => {
   return (
@@ -21,6 +22,9 @@ const App: React.FC = () => {
         <div id='services'>
           <Services />
         </div>
+        <div id='garage'>
+          <Garage />
+        </div>
         <div id='who-we-are'>
           <WhoWeAre />
         </div>
@@ -29,8 +33,8 @@ const App: React.FC = () => {
           <Gallery />
         </div>
         <Location />
+        <Footer />
       </main>
-      <Footer />
     </div>
   );
 };
