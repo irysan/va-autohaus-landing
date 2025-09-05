@@ -11,26 +11,26 @@
   },
   "services": {
     "title": "Nuestros Servicios",
-    "subtitle": "Soluciones automovilísticas de lujo integrales adaptadas a sus necesidades",
+    "subtitle": "Soluciones personalizadas para cada tipo de necesidad",
     "buySell": {
       "title": "Compra Venta",
-      "description": "Evaluación experta y comercialización de vehículos de lujo premium. Ofrecemos precios competitivos por su vehículo actual y le ayudamos a encontrar el coche de sus sueños de nuestra colección curada de BMW, Mercedes y otras marcas prestigiosas."
+      "description": "Servicio de compra y venta de automóviles premium con precios competitivos y tasaciones realistas para ofrecerte el mejor servicio posible tanto si compras o vendes y entregas tu antiguo vehículo como parte del pago. Queremos ser tu mejor consultoría a la hora tanto de la venta como de la compra."
     },
     "salesManagement": {
       "title": "Gestión de Venta",
-      "description": "Gestión completa del proceso de venta desde la consulta inicial hasta la entrega final. Nuestro equipo experimentado se encarga de todo el papeleo, documentación y garantiza una experiencia de transacción perfecta tanto para compradores como vendedores."
+      "description": "Gestión completa del proceso de venta de tu vehículo. Nos encargamos de todos los trámites necesarios desde el inicio del proceso hasta la formalización de la venta del mismo. Te ofrecemos gestionar la venta de tu coche tanto si es de forma presencial como si quieres seguir disfrutando de tu vehículo mientras lo vendemos."
     },
     "importExport": {
       "title": "Importación/Exportación",
-      "description": "Servicios de búsqueda y envío internacional de vehículos. Nos especializamos en la importación de modelos raros y exclusivos de Europa y todo el mundo, gestionando todas las aduanas, documentación y logística con total transparencia."
+      "description": "Somos especialistas tanto en la importación como en la exportación de tu vehículo. Si por la razón que sea, tu elección no es posible viabilizarla a nivel nacional, encontramos la mejor solución para tus necesidades a nivel europeo con todas las garantías necesarias. También facilitamos la gestión de venta de tu vehículo en el extranjero si ésta es la mejor opción de venta del mismo."
     },
     "vehicleStorage": {
       "title": "Custodia de Vehículos",
-      "description": "Instalaciones de almacenamiento seguras y climatizadas para sus vehículos valiosos. Nuestro servicio de almacenamiento premium incluye revisiones de mantenimiento regulares, acondicionamiento de batería y cobertura de seguro integral para total tranquilidad."
+      "description": "Custodiamos tu vehículo de forma segura y profesional. Nuestro servicio de almacenamiento premium incluye revisiones de mantenimiento regulares, acondicionamiento de batería y cobertura de seguro integral para total tranquilidad."
     },
     "financing": {
       "title": "Financiación",
-      "description": "Soluciones de financiación flexibles adaptadas a la compra de vehículos de lujo. Trabajamos con instituciones financieras premium para ofrecer tipos competitivos, opciones de leasing y planes de pago personalizados que se adapten a sus requisitos financieros."
+      "description": "Soluciones de financiación flexibles adaptadas a la compra de todo tipo de vehículos. Trabajamos con instituciones financieras premium para ofrecer tipos competitivos, opciones de leasing y planes de pago personalizados que se adapten a sus requisitos financieros."
     }
   },
   "who": {

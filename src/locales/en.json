@@ -11,26 +11,26 @@
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Comprehensive luxury automotive solutions tailored to your needs",
+    "subtitle": "Personalized solutions for every type of need",
     "buySell": {
       "title": "Buy & Sell",
-      "description": "Expert evaluation and trading of premium luxury vehicles. We offer competitive prices for your current vehicle and help you find your next dream car from our curated collection of BMW, Mercedes, and other prestigious brands."
+      "description": "Premium car buying and selling service with competitive prices and realistic valuations to offer you the best possible service whether you buy or sell and trade in your old vehicle as part of the payment. We want to be your best consultancy for both selling and buying."
     },
     "salesManagement": {
       "title": "Sales Management",
-      "description": "Complete sales process management from initial consultation to final delivery. Our experienced team handles all paperwork, documentation, and ensures a seamless transaction experience for both buyers and sellers."
+      "description": "Complete management of your vehicle sale process. We handle all necessary procedures from the beginning of the process to the formalization of the sale. We offer to manage the sale of your car whether in person or if you want to continue enjoying your vehicle while we sell it."
     },
     "importExport": {
       "title": "Import/Export",
-      "description": "International vehicle sourcing and shipping services. We specialise in importing rare and exclusive models from Europe and worldwide, handling all customs, documentation, and logistics with complete transparency."
+      "description": "We are specialists in both importing and exporting your vehicle. If for any reason your choice is not viable at the national level, we find the best solution for your needs at the European level with all necessary guarantees. We also facilitate the management of selling your vehicle abroad if this is the best sales option."
     },
     "vehicleStorage": {
       "title": "Vehicle Custody",
-      "description": "Secure, climate-controlled storage facilities for your valuable vehicles. Our premium storage service includes regular maintenance checks, battery conditioning, and comprehensive insurance coverage for complete peace of mind."
+      "description": "We safeguard your vehicle securely and professionally. Our premium storage service includes regular maintenance checks, battery conditioning, and comprehensive insurance coverage for complete peace of mind."
     },
     "financing": {
       "title": "Financing",
-      "description": "Flexible financing solutions tailored to luxury vehicle purchases. We work with premium financial institutions to offer competitive rates, leasing options, and bespoke payment plans that suit your financial requirements."
+      "description": "Flexible financing solutions tailored to all kind of vehicle purchases. We work with premium financial institutions to offer competitive rates, leasing options, and bespoke payment plans that suit your financial requirements."
     }
   },
   "who": {
