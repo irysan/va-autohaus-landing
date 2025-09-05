@@ -4,86 +4,56 @@ import { useTranslation } from 'react-i18next';
 const Location: React.FC = () => {
   const { t } = useTranslation();
 
-  const iframeStyle: React.CSSProperties = { border: 0 };
-
   return (
-    <section id='location' className='py-12 px-4 bg-gray-800 text-white'>
-      <h2 className='text-3xl font-semibold text-center mb-6'>
-        {t('location.title')}
-      </h2>
-      <div className='max-w-4xl mx-auto'>
-        {/* Google Maps embed for Calle Cobre 7, Torrejón de Ardoz */}
-        <iframe
-          title='V&A Autohaus Location - Calle Cobre 7, Torrejón de Ardoz'
-          src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.8!2d-3.4754967!3d40.4567552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI3JzI0LjMiTiAzwrAyOCczMS44Ilc!5e0!3m2!1sen!2ses!4v1640000000000!5m2!1sen!2ses&q=Calle+Cobre+7,+28850+Torrejón+de+Ardoz,+Madrid,+Spain'
-          width='100%'
-          height='450'
-          style={iframeStyle}
-          allowFullScreen={true}
-          loading='lazy'
-          referrerPolicy='no-referrer-when-downgrade'
-        ></iframe>
+    <section className='py-16 px-4 bg-gray-800 text-white'>
+      <div className='max-w-6xl mx-auto'>
+        <h2 className='text-4xl font-bold text-center mb-12'>
+          {t('location.title')}
+        </h2>
 
-        {/* Contact Information */}
-        <div className='mt-8 text-center'>
-          <p className='text-gray-300 text-lg font-semibold mb-6'>
-            {t('location.address')}
-          </p>
-
-          {/* Contact Cards */}
-          <div className='grid md:grid-cols-3 gap-6 text-gray-300'>
-            {/* Business Hours */}
-            <div className='bg-gray-900 p-6 rounded-lg'>
-              <h3 className='font-semibold text-yellow-400 mb-4 text-lg'>
-                {t('location.hours')}
-              </h3>
-              <div className='space-y-2'>
-                <p>Lunes - Viernes: 9:00 - 19:00</p>
-                <p>Sábados: 10:00 - 14:00</p>
-                <p>Domingos: Cerrado</p>
-              </div>
+        <div className='grid lg:grid-cols-2 gap-12 items-start'>
+          {/* Map Section */}
+          <div className='bg-gray-900 p-6 rounded-lg'>
+            <h3 className='font-semibold text-yellow-400 mb-4 text-lg'>
+              {t('location.address')}
+            </h3>
+            <p className='text-gray-300 mb-6'>
+              Calle Cobre 7, 28850 Torrejón de Ardoz, Madrid, España
+            </p>
+            <div className='w-full h-64 bg-gray-700 rounded-lg flex items-center justify-center'>
+              <iframe
+                src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.8234567890123!2d-3.4567890123456789!3d40.4567890123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI3JzI0LjQiTiAzwrAyNycyNC40Ilc!5e0!3m2!1sen!2ses!4v1234567890123'
+                width='100%'
+                height='100%'
+                style={{ border: 0 }}
+                allowFullScreen
+                loading='lazy'
+                referrerPolicy='no-referrer-when-downgrade'
+                className='rounded-lg'
+                title='V&A Autohaus Location'
+              ></iframe>
             </div>
+          </div>
 
-            {/* Contact Information */}
-            <div className='bg-gray-900 p-6 rounded-lg'>
-              <h3 className='font-semibold text-yellow-400 mb-4 text-lg'>
+          {/* Contact Card */}
+          <div className='flex justify-center'>
+            <div className='bg-gray-900 p-6 rounded-lg max-w-md w-full'>
+              <h3 className='font-semibold text-yellow-400 mb-4 text-lg text-center'>
                 {t('location.contact')}
               </h3>
-              <div className='space-y-3'>
+              <div className='text-center space-y-3'>
                 <div>
-                  <p className='font-medium'>Alfonso Sánchez</p>
+                  <p className='font-medium text-gray-300'>Víctor López</p>
                   <a
-                    href='tel:+34600000000'
-                    className='text-yellow-400 hover:text-yellow-300 transition-colors'
+                    href='tel:+34657558456'
+                    className='text-yellow-400 hover:text-yellow-300 transition-colors text-lg'
                   >
-                    +34 600 000 000
+                    +34 657 55 84 56
                   </a>
+                  <p className='text-sm text-gray-400 mt-2'>
+                    WhatsApp disponible
+                  </p>
                 </div>
-                <div>
-                  <p className='font-medium'>Víctor López</p>
-                  <a
-                    href='tel:+34600000001'
-                    className='text-yellow-400 hover:text-yellow-300 transition-colors'
-                  >
-                    +34 600 000 001
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Additional Info */}
-            <div className='bg-gray-900 p-6 rounded-lg'>
-              <h3 className='font-semibold text-yellow-400 mb-4 text-lg'>
-                {t('location.info')}
-              </h3>
-              <div className='space-y-2'>
-                <p>Email: info@va-autohaus.es</p>
-                <p className='text-sm text-gray-400'>
-                  {t('location.appointment')}
-                </p>
-                <p className='text-sm text-gray-400'>
-                  {t('location.whatsapp')}
-                </p>
               </div>
             </div>
           </div>
