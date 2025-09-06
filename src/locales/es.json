@@ -8,7 +8,7 @@
   },
   "hero": {
     "title": "Bienvenidos a V&A Autohaus",
-    "tagline": "Coches premium con máxima garantía"
+    "tagline": "Vehículos premium con máxima garantía"
   },
   "services": {
     "title": "Nuestros Servicios",
@@ -89,7 +89,7 @@
   },
   "location": {
     "title": "Visítanos y Ponte en Contacto",
-    "address": "Calle Cobre 7, 28850 Torrejón de Ardoz, Madrid, España",
+    "address": "Avenida de la industria 87,28970, Humanes de Madrid, Madrid",
     "hours": "Horario de Atención",
     "contact": "Contáctanos",
     "info": "Información Adicional",
