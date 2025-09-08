@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 // Using placeholder images from Unsplash for luxury cars
 const carImages: string[] = [
   '/assets/auris-back.jpeg',
-  '/assets/macan-back.jpeg',
+  '/assets/x5-front.jpeg',
   '/assets/range-front.jpeg',
   '/assets/s5-front.jpeg',
   'https://images.unsplash.com/photo-1563720223185-11003d516935?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
