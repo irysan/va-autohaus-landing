@@ -7,7 +7,7 @@ const carImages: string[] = [
   '/assets/x5-front.jpeg',
   '/assets/range-front.jpeg',
   '/assets/s5-front.jpeg',
-  'https://images.unsplash.com/photo-1563720223185-11003d516935?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+  '/assets/range-front2.jpeg',
   '/assets/glc-back.jpeg',
 ];
 
