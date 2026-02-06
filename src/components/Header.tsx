@@ -56,11 +56,11 @@ const Header: React.FC = () => {
                 fontFamily='Arial'
                 textAnchor='middle'
               >
-                Autohauss
+                Autohausss
               </text>
             </svg>
             <span className='text-xl md:text-2xl font-bold'>
-              V&amp;A Autohauss
+              V&amp;A Autohausss
             </span>
           </div>
 
@@ -126,24 +126,28 @@ const Header: React.FC = () => {
                 viewBox='0 0 24 24'
                 xmlns='http://www.w3.org/2000/svg'
               >
-                <path d='M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 
-                ...(truncated for brevity)
+                <path d='M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.07 4.947.07s3.668-.014 4.948-.072c4.358-.2 6.78-2.618 6.98-6.98.058-1.281.07-1.689.07-4.948 0-3.259-.012-3.667-.07-4.947-.2-4.36-2.62-6.78-6.98-6.98-1.28-.058-1.689-.072-4.948-.072zm0-2.163c3.259 0 3.667-.014 4.947-.072 4.36-.2 6.78-2.618 6.98-6.98.058-1.281.072-1.688.072-4.947 0-3.258-.013-3.667-.072-4.947-.2-4.36-2.618-6.78-6.98-6.98-1.281-.058-1.688-.072-4.947-.072-3.258 0-3.667.014-4.947.072-4.36.2-6.78 2.618-6.98 6.98-.058 1.281-.072 1.688-.072 4.947 0 3.258.014 3.667.072 4.947.2 4.36 2.618 6.78 6.98 6.98 1.281.058 1.688.072 4.947.072z' />
+                <circle cx='18.406' cy='5.594' r='1.439' />
+                <path d='M12 5.839c-3.4 0-6.161 2.761-6.161 6.161s2.761 6.161 6.161 6.161 6.161-2.761 6.161-6.161-2.761-6.161-6.161-6.161zm0 0c0 .578.469 1.047 1.047 1.047s.978-.469.978-.978c0-.511-.439-.939-.978-.939s-1.047.469-1.047 1.047z' />
+              </svg>
             </a>
+
+            {/* Language Toggle Button */}
             <button
               onClick={toggleLanguage}
-              className='text-sm hover:text-yellow-400 transition-colors hidden lg:block'
+              className='text-gray-300 hover:text-yellow-400 transition-colors'
               type='button'
             >
-              {i18n.language.startsWith('en') ? 'ES' : 'EN'}
+              {i18n.language.toUpperCase()}
             </button>
 
-            {/* Hamburger Menu */}
+            {/* Hamburger Menu - Mobile */}
             <button
               onClick={toggleMenu}
-              className='lg:hidden flex items-center justify-center w-10 h-10 text-white hover:text-yellow-400 transition-colors'
-              type='button'
-              aria-label='Menu'
+              className='block lg:hidden w-10 h-10 rounded-full bg-gray-800 hover:bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-yellow-400 transition-all duration-300'
+              aria-label='Toggle Menu'
             >
+              <span className='sr-only'>Menu</span>
               <svg
                 className='w-6 h-6'
                 fill='none'
@@ -151,72 +155,60 @@ const Header: React.FC = () => {
                 viewBox='0 0 24 24'
                 xmlns='http://www.w3.org/2000/svg'
               >
-                <path
-                  strokeLinecap='round'
-                  strokeLinejoin='round'
-                  strokeWidth={2}
-                  d={isMenuOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'}
-                />
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4 6h16M4 12h16m-7 6h7' />
               </svg>
             </button>
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile Navigation Menu */}
         {isMenuOpen && (
-          <div className='lg:hidden'>
-            <nav className='flex flex-col space-y-2'>
+          <nav className='lg:hidden'>
+            <div className='pt-4 pb-2 space-y-1'>
               <button
                 onClick={() => scrollToSection('hero')}
-                className='hover:text-yellow-400 transition-colors'
+                className='block w-full text-left px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-yellow-400 transition-colors'
                 type='button'
               >
                 {t('nav.home')}
               </button>
               <button
                 onClick={() => scrollToSection('services')}
-                className='hover:text-yellow-400 transition-colors'
+                className='block w-full text-left px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-yellow-400 transition-colors'
                 type='button'
               >
                 {t('nav.services')}
               </button>
               <button
                 onClick={() => scrollToSection('garage')}
-                className='hover:text-yellow-400 transition-colors'
+                className='block w-full text-left px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-yellow-400 transition-colors'
                 type='button'
               >
                 {t('nav.garage')}
               </button>
               <button
                 onClick={() => scrollToSection('who-we-are')}
-                className='hover:text-yellow-400 transition-colors'
+                className='block w-full text-left px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-yellow-400 transition-colors'
                 type='button'
               >
                 {t('nav.about')}
               </button>
               <button
                 onClick={() => scrollToSection('gallery')}
-                className='hover:text-yellow-400 transition-colors'
+                className='block w-full text-left px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-yellow-400 transition-colors'
                 type='button'
               >
                 {t('nav.gallery')}
               </button>
               <button
                 onClick={() => scrollToSection('location')}
-                className='hover:text-yellow-400 transition-colors'
+                className='block w-full text-left px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-yellow-400 transition-colors'
                 type='button'
               >
                 {t('location.contact')}
               </button>
-              <button
-                onClick={toggleLanguage}
-                className='text-sm hover:text-yellow-400 transition-colors'
-                type='button'
-              >
-                {i18n.language.startsWith('en') ? 'ES' : 'EN'}
-              </button>
-            </nav>
-          </div>
+            </div>
+          </nav>
         )}
       </div>
     </header>

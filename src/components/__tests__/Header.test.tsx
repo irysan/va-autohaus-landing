@@ -13,13 +13,13 @@ describe('Header Component', () => {
     );
   });
 
-  it('renders the logo with double "S" in Autohauss', () => {
-    const logoElement = screen.getByText(/V&A Autohauss/i);
+  it('renders the logo with triple "S" in Autohausss', () => {
+    const logoElement = screen.getByText(/V&A Autohausss/i);
     expect(logoElement).toBeInTheDocument();
   });
 
-  it('renders the SVG logo with correct double "S"', () => {
-    const svgText = screen.getByText('Autohauss', { selector: 'text' });
+  it('renders the SVG logo with correct triple "S"', () => {
+    const svgText = screen.getByText('Autohausss', { selector: 'text' });
     expect(svgText).toBeInTheDocument();
   });
 
@@ -40,7 +40,7 @@ describe('Header Component', () => {
   });
 
   it('toggles the mobile menu open and close', () => {
-    const menuButton = screen.getByLabelText('Menu');
+    const menuButton = screen.getByLabelText('Toggle Menu');
     expect(menuButton).toBeInTheDocument();
 
     // Initially menu should be closed
@@ -74,5 +74,13 @@ describe('Header Component', () => {
     });
   });
 
-  // Further tests can be added for each button interaction if needed
+  it('should render Instagram link with correct href and attributes', () => {
+    const instagramLink = screen.getByLabelText('Follow us on Instagram');
+    expect(instagramLink).toBeInTheDocument();
+    expect(instagramLink).toHaveAttribute('href', 'https://www.instagram.com/vyaautohaus?igsh=YWJsMWNqd29wa2Vp&utm_source=qr');
+    expect(instagramLink).toHaveAttribute('target', '_blank');
+    expect(instagramLink).toHaveAttribute('rel', 'noopener noreferrer');
+  });
+
+  // Further tests can be added for edge cases or additional features
 });
